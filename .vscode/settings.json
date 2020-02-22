@@ -1,0 +1,39 @@
+{
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ff4800",
+    "terminalCursor.foreground": "#ff4800",
+    "editor.selectionBackground": "#812141",
+    "editor.selectionHighlightBackground": "#c4e7476b",
+    "editor.lineHighlightBorder": "#9e1212",
+    "editor.wordHighlightBackground": "#1cf30950"
+  },
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.debugScss",
+      "sequence": [
+        "editor.action.clipboardCopyAction",
+        "editor.action.insertLineBefore",
+        {
+          "command": "editor.action.insertSnippet",
+          "args": {
+            "snippet": "@debug \"$CLIPBOARD: ----> \" #{$CLIPBOARD};\n"
+          }
+        }
+      ]
+    },
+    {
+      "command": "multiCommand.debugJavascript",
+      "sequence": [
+        "editor.action.clipboardCopyAction",
+        "editor.action.insertLineBefore",
+        {
+          "command": "editor.action.insertSnippet",
+          "args": {
+            "snippet": "console.log(`$CLIPBOARD: ----> ${$CLIPBOARD}`);\n"
+          }
+        }
+      ]
+    }
+  ]
+}

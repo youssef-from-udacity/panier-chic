@@ -1,0 +1,32 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+node_modules/
+app/temp
+docs
+.tmp/
+app/assets/images/*.jpg
+app/assets/styles/sass/parts/5-modules/navbar
+app/assets/images/sprites
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.komodoproject
+.komodotools
+_notes
+dwsync.xml
