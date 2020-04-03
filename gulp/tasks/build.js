@@ -70,7 +70,7 @@ task(
 task(
   'build',
   series(
-    'resize_images',
+    //'resize_images',
     'icons',
     'deleteDistFolder',
     'copyGeneralFiles',

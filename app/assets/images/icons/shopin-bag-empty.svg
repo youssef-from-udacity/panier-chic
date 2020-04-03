@@ -1,0 +1,22 @@
+<svg id="WebSite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="36" viewBox="0 0 30 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8f7f7;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+        fill: #ed217c;
+        font-family: "Times New Roman";
+      }
+    </style>
+  </defs>
+  <g id="Products">
+    <g id="AddToCard">
+      <image id="paper-bag" width="25" height="29" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAdCAQAAAD1cQ/+AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkAx4QCiqLFStkAAABwElEQVQ4y5XSPWhUQRSG4SeXG4mxMJLd7MZYSBS0krRiCkEEQQRBtJBAihQWARFLG6e0EVFMZRPEIP6QQhRBIRY2YmXKWBpINtlIVIyI5sfi3r1udmH35qtmzsx7zvnOTMdNTepw1KBY1ay10HQcN0UOeW4oXX83bqrxQtSwL5oxZMaIc+7p9iicb2qiobE7rnngii1w2muLBsPfVlUuW3M9BXjrmQNOtGpsjz6f/KyLvMeRVkgn1rdFfmF388R2GbcXdOGg+rkO4UzoARuehM+J/bNeyqepMJJUGcBD79BtwpxbdZeGjXnsTXrWX2usgFeeoseEisltmcd8DJMQ7irX7PdjEZzC4SRXqpMYDh2gqlhD+lAFtzHgagYcM4oLjoOKYoj/I0tpHljJkFUb2PIVLCcmYpT9sQpG3DDvfobMu+SiF2GONG1JJUYxyztntGGs02E6Wy+hbDbSqddCrlepokikmHlop4VkupFyZr6dVmpV+nIjFZSJlNLxtddS8iAJUsndWGlH9sO6aoLsV/th7VVN7BfyVkFFHPZFyjZzI8voiZSs2NwBUogVRL61MF2/6UJv5IMfOWvw26Iv/wAty3EkFr1DMwAAAABJRU5ErkJggg=="/>
+      <circle class="cls-1" cx="21.5" cy="27.5" r="8.5"/>
+      <text id="_" data-name="+" class="cls-2" x="15" y="33">+</text>
+    </g>
+  </g>
+</svg>
