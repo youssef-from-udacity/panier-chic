@@ -1,7 +1,7 @@
 /* mixins 
 * Generates the image in either standard size or retina display version
 */
-@mixin imgRetina($image1x, $image2x, $width, $height, $position: center, $repeat: no-repeat) {
+@mixin imgRetina($image1x, $image2x, $width, $height, $position: center, $color:false,$repeat: no-repeat) {
     background: url($image1x) $repeat $position;
          
     @media 
@@ -11,8 +11,13 @@
     screen and (     -o-min-device-pixel-ratio: 2/1),
     screen and (        min-device-pixel-ratio: 2),
     screen and (             min-resolution: 192dpi), 
-    screen and (             min-resolution: 2dppx) {    
-       background: url($image2x) $repeat $position;
-       background-size: $width $height;
+    screen and (             min-resolution: 2dppx) { 
+        @if $color{
+            background: $color url($image2x) $repeat $position;
+            background-size: $width $height;
+        } @else{
+            background: url($image2x) $repeat $position;
+            background-size: $width $height;
+        }  
     }
 }

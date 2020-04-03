@@ -1,1 +1,19 @@
 $mainWhite: #ffffff;
+$mainBlue: #25aae0;
+$mainOrange: #d59440;
+$btnOrange: #f97f02;
+$mainRed: #ed217c;
+$darkGray: #282828;
+
+$primary: $mainBlue;
+$warning: $mainOrange;
+
+$btn-border-radius: 0;
+$btn-padding-y: 0.875rem;
+$btn-padding-x: 1.375rem;
+
+$spacer: 1rem;
+$spacers: ( 
+    6: ($spacer * 1.25),
+    7: ($spacer * 6.3125)
+);

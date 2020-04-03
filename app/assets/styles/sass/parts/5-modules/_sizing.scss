@@ -1,0 +1,31 @@
+.w-300{
+    width: 300px;
+}
+.min-w-290{
+    min-width: 290px;
+}
+.w-700{
+    width: 700px;
+}
+.mw-700{
+    max-width: 700px;
+}
+.mw-md-900{
+    @include media-breakpoint-down(lg){
+        max-width: 900px;
+    }
+}
+
+.h-300{
+    height: 300px;
+}
+.w-md-300{
+    @include media-breakpoint-up(custom,(custom: 1020px)){
+        width: 300px;
+    }
+}
+.w-md-700{
+    @include media-breakpoint-up(custom,(custom: 1020px)){
+        width: 700px;
+    }
+}
