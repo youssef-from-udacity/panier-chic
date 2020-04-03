@@ -1,0 +1,13 @@
+
+@each $breakpoint in map-keys((lg: 1020px)){
+  @include media-breakpoint-up($breakpoint,(lg: 1020px)) {
+    $infix: breakpoint-infix($breakpoint, (lg: 1020px));
+
+    @each $value in $positions {
+      .position-#{$infix}-#{$value} {
+        position: $value !important;
+        right: 0;
+      }
+    }
+  }
+}
