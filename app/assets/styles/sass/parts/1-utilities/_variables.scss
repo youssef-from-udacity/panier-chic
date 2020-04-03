@@ -17,3 +17,39 @@ $spacers: (
     6: ($spacer * 1.25),
     7: ($spacer * 6.3125)
 );
+
+$grid-breakpoints-2: (
+  600: 600px,
+  990: 990px,
+  1020: 1020px
+  );
+$grid-breakpoints-3: (
+  sm: 640px,
+  md: 990px,
+  lg: 1380px,
+  xl: 1960px
+);
+$grid-breakpoints-4: (
+  sm: 640px,
+  md: 990px,
+  lg: 1380px,
+  xl: 1960px
+);
+$gray-300: null;
+$gray-400: null;
+$gray-500: null;
+$black: null;
+$input-placeholder-color: $gray-300;
+$input-height: calc(3rem + 2px);
+$input-border-radius: 0;
+$input-font-size: 0.875rem;
+$input-line-height: 1.5;
+$input-bg: $mainWhite;
+$input-border-color: $gray-400;
+$input-color: $gray-500;
+$input-focus-border-color: $mainWhite;
+$input-focus-box-shadow: 0 0 0 0.2rem rgba($mainWhite, 0.5);
+
+$box-shadow: .1rem .1rem .4rem .1rem rgba(black, .1);
+
+$danger: #e2001a;
