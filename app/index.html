@@ -73,6 +73,44 @@
       </nav>
     </header>
 
+    <div class="hero">
+      <picture>
+        <source srcset="assets/images/hero--extra-large-1960.jpg 1960w, assets/images/hero--extra-large-3840.jpg 3840w" media="(min-width:1380px)">
+        <source srcset="assets/images/hero--large-1380.jpg 1380w, assets/images/hero--large-2760.jpg 2760w" media="(min-width:990px)">
+        <source srcset="assets/images/hero--meduim-990.jpg 990w, assets/images/hero--meduim-1980.jpg 1980w" media="(min-width:640px)">
+        <img class="lazyload" srcset="assets/images/hero--small-640.jpg 640w, assets/images/hero--small-1280.jpg 1280w" alt="montain view">
+      </picture>
+      <section class="hero-search center-horizontally">
+        <form action="#" method="post" novalidate="novalidate">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="row mx-0">
+                <div class="col-lg-6 col-md-6 col-sm-12 p-0 mb-1 order-1 order-md-0 d-flex">
+                  <label for="inputSearch" class="sr-only">Enter your search keyword</label>
+                  <input type="text" class="form-control" id="inputSearch" placeholder="Trouver facilemet ce que vous Désirer ...">
+                  <button type="button" class="btn btn-light hero-search-btn px-3 px-sm-3 d-block d-md-none">
+                    <span class="icon icon--search-blue d-inline-block"></span></button>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-0 mb-1 order-0 order-md-1 d-flex">
+                  <select aria-label="Select a category for search" class="form-control" id="FormControlSelect1">
+                    <option>Toutes les catégories</option>
+                    <option>catégorie 1</option>
+                    <option>catégorie 2</option>
+                    <option>catégorie 3</option>
+                    <option>catégorie 4</option>
+                    <option>catégorie 5</option>
+                    <option>catégorie 6</option>
+                  </select>
+                  <button type="button" class="btn btn-light hero-search-btn d-none d-md-block">
+                    <span class="icon icon--search-blue d-inline-block"></span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+
     <!--build:js assets/scripts/App.js-->
     <script src="temp/scripts/App.js"></script>
     <!--endbuild-->
