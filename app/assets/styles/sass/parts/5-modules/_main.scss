@@ -1,0 +1,3 @@
+.main{
+    @include imgRetina("../../assets/images/main-background--large-1380.jpg", "../../assets/images/main-background--large-2760.jpg", 100%, auto, left bottom);
+}

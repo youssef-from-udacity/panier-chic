@@ -4,6 +4,8 @@
 import {task, src, dest} from "gulp";
 import imageResize from "gulp-image-resize";
 import rename from "gulp-rename";
+import map from "gulp-map";
+
 const arrSizes = [
   {
     name: "--small",
@@ -34,9 +36,9 @@ task("resize_images", function resize_imagesFun(done) {
 );
 
 function imageResolutionCase() {
-  src("./app/assets/resizeImages/*--image-resolution*.{jpg,png,tiff}").pipe(rename(function (path) {
+  src("./app/assets/resizeImages/*--image-resolution*.{jpg,png,tiff}").pipe(map(function (path) {
     const element = {
-        name: path.basename,
+        name: path.basename.replace(".jpg", ""),
         sizes: [],
         basename: ""
       },

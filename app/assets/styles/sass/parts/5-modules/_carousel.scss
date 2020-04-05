@@ -1,0 +1,108 @@
+.carousel{
+  &-navigation {
+    display: none;
+    width: 33%;
+    min-width: 300px;
+    height: 300px;
+    background-color: $mainRed;
+    z-index: 2;
+    @include media-breakpoint-up(600,$grid-breakpoints-2){
+      display: block;
+    }
+
+    &-title{
+      font-size: 1.5rem;
+    }
+    &-triangle{
+      width: 0;
+      height: 0;
+      border-top: 15px solid transparent;
+      border-left: 20px solid $mainRed;
+      border-bottom: 15px solid transparent;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(70%, -50%);
+      z-index: 3;
+    }
+  }
+  
+  &-slide {
+    width: 67%;
+    height: 300px;
+    margin-bottom: 0 !important;
+    @include media-breakpoint-up(sm){
+      transform: translateX(-1px);
+    }
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 200px;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &-brand{
+    width: 80px;
+    height: 80px;
+    border: 2px solid $gray-300;
+    transform: scale(.8);
+    transform-origin: -50% 50%;
+    border-radius: 50%;
+  }
+}
+.slick-list{
+  height: 100%;
+}
+.slick-dots {
+  bottom: 0 !important;
+  @include media-breakpoint-up(600,$grid-breakpoints-2){
+    bottom: 10px !important;
+  }
+
+  li button:before{
+    color: transparent !important;
+  }
+  li button {
+    border: 2px solid $mainRed !important;
+    @include media-breakpoint-up(600,$grid-breakpoints-2){
+      border: 2px solid white !important;
+    
+    }
+  }
+  li.slick-active button:before {
+    background-color: $mainRed;
+    @include media-breakpoint-up(600,$grid-breakpoints-2){
+      background-color: white;
+  
+    }
+  }
+}
+.slick-prev:before, .slick-next:before {
+  color: $mainRed !important;
+}
+
+.slick-prev {
+  left: 10px !important;
+  z-index: 2;
+  &:before {
+    color: $mainRed !important;
+  }
+}
+.slick-next {
+  right: 10px !important;
+  z-index: 2;
+  &:before {
+    color: $mainRed !important;
+  }
+}
+.slick-slide{
+  > div > div {
+    display: block !important;
+    position: relative;
+    min-width: 300px;
+    height: 300px;
+    border-left: .5px solid $gray-300;
+    background-color: white;
+  }
+}
