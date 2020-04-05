@@ -1,0 +1,5 @@
+.btn-outline-orange {
+    @extend .centerX;
+    bottom: 10px;
+  @include button-outline-variant($mainWhite, $mainWhite, $active-background: $btnOrange, $active-border: $mainWhite);
+}

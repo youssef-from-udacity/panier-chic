@@ -1,0 +1,120 @@
+.product-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  @include clearfix();
+  &-main {
+    margin-bottom: 1.25rem;
+    @include media-breakpoint-up(
+      custom,
+      (
+        custom: 1020px
+      )
+    ) {
+      margin-right: auto;
+    }
+  }
+  &-side {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.25rem;
+    @include media-breakpoint-up(
+      custom,
+      (
+        custom: 1020px
+      )
+    ) {
+      margin-left: auto;
+    }
+    &-offer{
+      @extend .centerX;
+      @include font-size(1.75rem);
+      text-align: center;
+      color: $mainWhite;
+    }
+  }
+  .icon--zara {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .icon--retated-square {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    transform: translateX(30%);
+    z-index: 2;
+  }
+  .icon--atlas-voyages {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+  }
+  .icon--cello-club {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    @include media-breakpoint-up(
+      custom,
+      (
+        custom: 1020px
+      )
+    ) {
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &-footer {
+    height: 200px;
+    position: relative;
+    @include font-size(1rem);
+    @include media-breakpoint-up(sm) {
+      @include font-size(1.25rem);
+    }
+    a {
+      color: $mainRed;
+    }
+    span {
+      height: 40px;
+      border-bottom: 2px solid $mainRed;
+    }
+    p {
+      font-size: inherit;
+    }
+    &-icons {
+      width: 900px;
+      transform: scale(0.4);
+      transform-origin: -30%;
+      position: absolute;
+      left: 50%;
+      height: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      @include media-breakpoint-up(sm) {
+        transform: scale(0.7);
+        transform-origin: -100%;
+      }
+      @include media-breakpoint-up(
+        custom,
+        (
+          custom: 1020px
+        )
+      ) {
+        transform: translateX(-50%);
+      }
+      .icon--electroplanet {
+        transform: scale(0.5);
+        transform-origin: 0;
+      }
+    }
+  }
+}
+.end-date{
+  @include font-size(.8rem);
+  display: block;
+  position: relative;
+    top: -5px;
+}
