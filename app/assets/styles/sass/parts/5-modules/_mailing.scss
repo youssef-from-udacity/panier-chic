@@ -1,0 +1,19 @@
+.mailing{
+    background-color: $mainRed;
+    &-form{
+        display: flex;
+        &-label{
+            @include font-size(1.4375rem);
+            white-space: nowrap;
+            color: $mainWhite;
+        }
+        &-btn{
+            @extend .hero-search-btn;
+            min-width: 50px;
+            &:after {
+                content: "";
+                background: $mainRed;
+            }
+        }
+    }
+}

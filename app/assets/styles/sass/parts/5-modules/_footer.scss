@@ -1,0 +1,32 @@
+.footer {
+    background-color: $darkGray;
+  @include media-breakpoint-up(lg){
+      @include imgRetina(
+        "../../assets/images/footer-background--large-1380.jpg",
+        "../../assets/images/footer-background--large-2760.jpg",
+        100%,
+        100%,
+        left bottom
+      );
+  }
+
+  &-link {
+    display: block;
+    margin-bottom: 1.25rem;
+    color: $mainBlue;
+    font-size: 0.95rem;
+  }
+  p {
+    font-size: 0.82rem;
+    color: $gray-500;
+  }
+  &-info{
+      &-numbers{
+          color: $mainRed;
+      }
+      &-type{
+          color: $gray-600;
+
+      }
+  }
+}
