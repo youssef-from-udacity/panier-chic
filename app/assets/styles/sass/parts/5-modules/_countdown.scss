@@ -1,0 +1,25 @@
+.countdown {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    border: 2px solid $mainRed;
+    border-radius: 50%;
+    color: $mainRed;
+    line-height: 1.2;
+    @include media-breakpoint-up(sm){
+        width: 40px;
+        height: 40px;
+    }
+    &-number{
+        font-size: 1.4rem;
+        display: block;
+    }
+    &-unit{
+        transform: translateY(-5px);
+        font-size: .45rem;
+        display: block;
+        @include media-breakpoint-up(sm){
+            font-size: .5rem;
+        }
+    }
+}
