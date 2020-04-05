@@ -9,7 +9,7 @@
     "gulp-map": "0.0.2",
     "gulp-rename": "^2.0.0",
     "gulp-sourcemaps": "^2.6.5",
-    "jquery": "^1.12.4",
+    "jquery": "^3.4.1",
     "jquery-smooth-scroll": "^2.2.0",
     "lazysizes": "5.2.0-beta1",
     "normalize.css": "8.0.1",

@@ -490,10 +490,10 @@
       </div>
     </div>
 
-    <!--build:js assets/scripts/App.js-->
-    <script src="temp/scripts/App.js"></script>
-    <!--endbuild-->
 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/modules/slick.js"></script>
     <script type="text/javascript">
       function carouselSlide() {
         if (window.matchMedia("(max-width: 599px)").matches) {
@@ -540,6 +540,10 @@
         carouselSlide();
       });
     </script>
+
+        <!--build:js assets/scripts/App.js-->
+        <script src="temp/scripts/App.js"></script>
+        <!--endbuild-->
 
   </body>
 

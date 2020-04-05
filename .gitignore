@@ -16,6 +16,7 @@ docs
 app/assets/resizeImages/*.jpg
 app/assets/styles/sass/parts/5-modules/navbar
 app/assets/images/sprites
+app/assets/styles/sass/parts/2-vendor/_sprite.scss
 
 # OS or Editor folders
 .DS_Store
