@@ -11,7 +11,7 @@
 *.sass-cache
 node_modules/
 app/temp
-docs
+
 .tmp/
 app/assets/resizeImages/*.jpg
 app/assets/styles/sass/parts/5-modules/navbar

@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "id": "product1",
+      "countdown": true,
+      "endDate": [2023,2,27]
+    },
+    {
+      "id": "product2",
+      "countdown": true,
+      "endDate": [2021,2,28,17,39,12]
+    },
+    {
+      "id": "product3",
+      "countdown": true,
+      "endDate": [2020,4,13,18,9]
+    },
+    {
+      "id": "product4",
+      "countdown": true,
+      "endDate": [2022,7,23,8,11,2,43]
+    },
+    {
+      "id": "product5",
+      "countdown": false,
+      "endDate": [2023,2,27]
+    },
+    {
+      "id": "product8",
+      "countdown": false,
+      "endDate": [2021,2,28,17,39]
+    },
+    {
+      "id": "product9",
+      "countdown": false,
+      "endDate": [2020,4,13,18,9]
+    },
+    {
+      "id": "product10",
+      "countdown": false,
+      "endDate": [2022,7,23,8,11]
+    },
+    {
+      "id": "product11",
+      "countdown": false,
+      "endDate": [2023,2,27]
+    },
+    {
+      "id": "product12",
+      "countdown": false,
+      "endDate": [2021,2,28,17,39]
+    },
+    {
+      "id": "product13",
+      "countdown": false,
+      "endDate": [2020,4,13,18,9]
+    },
+    {
+      "id": "product10",
+      "countdown": false,
+      "endDate": [2022,7,23,8,11]
+    }
+  ]
+}
